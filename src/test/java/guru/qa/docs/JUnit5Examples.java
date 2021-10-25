@@ -1,4 +1,4 @@
-package guru.qa;
+package guru.qa.docs;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
@@ -8,7 +8,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-public class FirstTest {
+public class JUnit5Examples {
 
     @BeforeAll
     static void beforeAll() {
