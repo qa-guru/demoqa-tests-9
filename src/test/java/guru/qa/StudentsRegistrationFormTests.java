@@ -12,12 +12,10 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class StudentsRegistrationFormTests {
 
-
     @BeforeAll
     static void beforeAll() {
         Configuration.startMaximized = true;
     }
-
 
     @Test
     void fillFormTest() {
