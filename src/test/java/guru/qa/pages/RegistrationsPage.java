@@ -38,7 +38,6 @@ public class RegistrationsPage {
         lastNameInput.setValue(value);
     }
 
-
     public RegistrationsPage checkResultsValue(String key, String value) {
         resultsTable.$(byText(key))
                 .parent().shouldHave(text(value));
