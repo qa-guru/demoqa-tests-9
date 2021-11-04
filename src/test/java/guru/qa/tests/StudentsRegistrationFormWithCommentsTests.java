@@ -1,4 +1,4 @@
-package guru.qa;
+package guru.qa.tests;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class StudentsRegistrationFormTests {
+public class StudentsRegistrationFormWithCommentsTests {
 
     @BeforeAll
     static void beforeAll() {
