@@ -19,10 +19,7 @@ public class StudentsRegistrationWithPageObjectsTests extends TestBase {
         $("#genterWrapper").$(byText("Male")).click();
         $("#userNumber").setValue("1231231231");
 
-        $("#dateOfBirthInput").click();
-        $(".react-datepicker__month-select").selectOption("July");
-        $(".react-datepicker__year-select").selectOption("2008");
-        $(".react-datepicker__day--030:not(.react-datepicker__day--outside-month)").click();
+        registrationsPage.calendar.setDate("30", "July", "2008");
 
         $("#subjectsInput").setValue("Maths").pressEnter();
         $("#hobbiesWrapper").$(byText("Sports")).click();

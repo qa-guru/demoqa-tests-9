@@ -2,6 +2,7 @@ package guru.qa.pages;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
+import guru.qa.pages.components.CalendarComponent;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
@@ -16,6 +17,7 @@ public class RegistrationsPage {
             firstNameInput = $("#firstName"),
             lastNameInput = $("#lastName"),
             resultsTable = $(".table-responsive");
+    public CalendarComponent calendar = new CalendarComponent();
 
     // actions
     public RegistrationsPage openPage() {
