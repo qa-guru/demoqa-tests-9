@@ -45,6 +45,5 @@ public class StudentsRegistrationWithPageObjectsTests extends TestBase {
         registrationsPage
                 .checkResultsValue("Student Name", "Alex Egorov")
                 .checkResultsValue("Email", "alex@egorov.com");
-
     }
 }
